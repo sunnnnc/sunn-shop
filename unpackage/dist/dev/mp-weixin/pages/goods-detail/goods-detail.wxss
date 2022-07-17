@@ -1,0 +1,65 @@
+
+.goods-detail swiper {
+	width: 750rpx;
+	height: 700rpx;
+}
+.goods-detail swiper swiper-item .swiper-item image {
+	width: 100%;
+	height: 100%;
+}
+.box1 {
+	padding: 10rpx;
+}
+.price {
+	line-height: 80rpx;
+	font-size: 35rpx;
+	color: #B50E03;
+}
+.price text:last-child {
+	padding-left: 10rpx;
+	font-size: 26rpx;
+	text-decoration: line-through;
+	color: #ccc;
+}
+.goods-name {
+	font-size: 30rpx;
+	line-height: 60rpx;
+}
+.line {
+	height: 10rpx;
+	width: 750rpx;
+	background-color: #eee;
+}
+.box2 {
+	padding: 0 10rpx;
+	font-size: 32rpx;
+	line-height: 70rpx;
+}
+.box3 {
+	padding: 0 10rpx;
+}
+.tit {
+	line-height: 70rpx;
+	font-size: 30rpx;
+	border-bottom: 1px solid #eee;
+}
+.content {
+	padding-bottom: 20rpx;
+	font-size: 28rpx;
+	color: #333;
+}
+.goods-carts {
+
+	display: flex;
+
+	flex-direction: column;
+	position: fixed;
+	left: 0;
+	right: 0;
+
+
+
+
+	bottom: 0;
+}
+

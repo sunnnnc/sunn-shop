@@ -1,0 +1,8 @@
+
+.news-detail {
+	font-size: 30rpx;
+}
+.goods-detail {
+	padding: 10rpx 20rpx;
+}
+

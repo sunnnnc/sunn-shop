@@ -1,0 +1,27 @@
+
+.news-item {
+	display: flex;
+	padding: 10rpx 20rpx;
+	border-bottom: 1px solid #B50E03;
+}
+.news-item image {
+	min-width: 200rpx;
+	max-width: 200rpx;
+	height: 150rpx;
+}
+.news-item .right {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-left: 15rpx;
+}
+.news-item .right .tit {
+	font-size: 30rpx;
+}
+.news-item .right .info {
+	font-size: 24rpx;
+}
+.news-item .right .info text:last-child {
+	margin-left: 30rpx;
+}
+
